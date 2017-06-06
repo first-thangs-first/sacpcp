@@ -48,6 +48,11 @@ export class EventPage {
   public eventCategories:Array<String> = [];
   public getPreferencesError = false;
 
+  // TODO: development for datepicker
+  public datePickerStartDate = "2017-06-04";
+  public datePickerEndDate = "2017-06-31";
+  // TODO: end development for datepicker
+
   constructor(public volunteerEventsService: VolunteerEventsService,
     public userServices: UserServices,
     public modalCtrl: ModalController,
